@@ -12,8 +12,9 @@ Start development server, then access the live preview on `http://localhost:5173
 npm run dev
 ```
 
-Build the front for production into a `dist` directory.
+Build the front for production:
 ```bash
 npm run build
 ```
+Built file are located into the `dist` directory.
 
