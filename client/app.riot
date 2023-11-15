@@ -1,0 +1,22 @@
+<app>
+    <div>
+        <h1> Riotjs + ViteJS </h1>
+        <c-button> { state.total } </c-button>
+        <c-button primary="true" style="margin-left:10px" onclick={ () => update({ total: state.total + 1 }) }> Add </c-button>
+        <c-button danger="true" style="margin-left:10px" onclick={ () => update({ total: state.total - 1 }) }> Delete </c-button>
+    </div>
+
+
+    <script>
+        import cButton from './c-button.riot';
+
+        export default {   
+            components : {
+                cButton
+            },
+            state : {
+                total: 0
+            }
+        }
+    </script>
+</app>

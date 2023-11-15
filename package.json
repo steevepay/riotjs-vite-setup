@@ -1,0 +1,23 @@
+{
+  "name": "riotjs-vite-setup",
+  "version": "1.0.0",
+  "description": "Minimum environment for a RiotJS frontend built with ViteJS",
+  "main": "index.js",
+  "homepage": "https://github.com/steevepay/riotjs-vite-setup#readme",
+  "keywords": ["Vite", "RiotJS", "Rollup", "Front-end"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": {
+    "name": "Steeve Payraudeau",
+    "url": "https://www.linkedin.com/in/steeve-payraudeau/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "riot": "=9.1.1",
+    "rollup": "=4.4.1",
+    "rollup-plugin-riot": "=9.0.2",
+    "vite": "=4.5.0"
+  }
+}

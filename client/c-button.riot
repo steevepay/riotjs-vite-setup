@@ -1,0 +1,33 @@
+<c-button >
+    <button class="btn{ props.primary ? ' btn-primary' : '' }{ props.danger ? ' btn-danger' : '' }">
+        <slot></slot>
+    </button>
+
+    <style>
+
+        .btn-primary {
+            background-color: rgb(99 102 241) !important;
+            color: white;
+        }
+
+        .btn-danger {
+            background-color: #ea0000 !important;
+            color: white;
+        }
+
+        .btn {
+            cursor: pointer;
+            text-transform: none;
+            border-radius: 0.375rem;
+            border-style: solid;
+            padding-left: 0.875rem;
+            padding-right: 0.875rem;
+            padding-top: 0.625rem;
+            padding-bottom: 0.625rem;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            font-weight: 600;
+            background-color: rgb(249 250 251);
+        }
+    </style>
+</c-button>

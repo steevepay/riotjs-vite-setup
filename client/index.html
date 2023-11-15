@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiotJS + ViteJS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module">
+      /** Load riot.js **/
+      import * as riot from 'riot'
+      import App from './app.riot'
+
+      const mountApp = riot.component(App)
+      mountApp(document.getElementById('root'))
+    </script>
+  </body>
+</html>
