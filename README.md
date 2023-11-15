@@ -7,7 +7,7 @@ Install npm packages:
 npm install
 ```
 
-Start development server:
+Start development server, then access the live preview on `http://localhost:5173/`:
 ```bash
 npm run dev
 ```
