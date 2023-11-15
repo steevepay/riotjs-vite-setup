@@ -17,4 +17,5 @@ Build the front for production:
 npm run build
 ```
 Built file are located into the `dist` directory.
+To configure the build stage, you must edit the `vite.config.js` file.
 
